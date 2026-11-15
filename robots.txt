@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imajewel75.github.io/sitemap.xml
+Sitemap: https://imajewel75.github.io/career-mapping/sitemap.xml

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>최쌤의 세 갈래 길 매핑 · 진로, 수학, 가드닝</title>
+<meta name="description" content="30년차 수학교사 최쌤이 가꾸는 세 갈래 길. 진로교육을 배우며 그리는 '최쌤의 진로매핑', 수학을 손으로 만나는 '자옥쌤의 수학교실', '들꽃처럼 가드닝' 베란다 정원 이야기.">
+<meta name="naver-site-verification" content="42800c0ccf8fecf5d0015eb5bd550009750afefb">
+<link rel="canonical" href="https://imajewel75.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="최쌤의 세 갈래 길 매핑 · 진로, 수학, 가드닝">
+<meta property="og:description" content="진로교육을 배우며 그리는 지도, 손으로 만나는 수학, 베란다 정원 이야기.">
+<meta property="og:url" content="https://imajewel75.github.io/">
+<meta property="og:locale" content="ko_KR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1F2A33; --muted:#5B6670; --paper:#FBFAF6; --line:#E4E1D8;
+    --career:#163A5F; --career-accent:#F2C14E;
+    --math:#B4532A;   --math-accent:#F6D7C3;
+    --garden:#3F7D4E; --garden-accent:#D5EAD2;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{word-break:keep-all;font-family:"IBM Plex Sans KR",system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.7;min-height:100vh;display:flex;flex-direction:column}
+  .wrap{width:min(1080px,100% - 40px);margin:0 auto}
+  header{padding:64px 0 28px}
+  h1{font-family:"Gowun Batang",serif;font-size:clamp(28px,4vw,40px);margin:0 0 10px;letter-spacing:-.01em}
+  .lead{color:var(--muted);margin:0;max-width:40em}
+  .doors{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:20px 0 64px}
+  .door{position:relative;display:flex;flex-direction:column;min-height:300px;padding:28px 26px 24px;border-radius:18px 18px 6px 6px;text-decoration:none;color:#fff;overflow:hidden;transition:transform .2s ease, box-shadow .2s ease}
+  .door::before{content:"";position:absolute;inset:14px 14px auto 14px;height:58%;border:1.5px solid rgba(255,255,255,.28);border-radius:12px 12px 4px 4px;pointer-events:none}
+  .door::after{content:"";position:absolute;right:28px;top:calc(14px + 58% - 30px);width:10px;height:10px;border-radius:50%;background:var(--knob)}
+  a.door:hover,a.door:focus-visible{transform:translateY(-4px);box-shadow:0 14px 28px rgba(31,42,51,.18)}
+  a.door:focus-visible{outline:3px solid var(--knob);outline-offset:3px}
+  .career{background:var(--career);--knob:var(--career-accent)}
+  .math{background:var(--math);--knob:var(--math-accent)}
+  .garden{background:var(--garden);--knob:var(--garden-accent)}
+  .tag{position:relative;font-size:13px;letter-spacing:.08em;opacity:.85;margin:0 0 6px}
+  .door h2{position:relative;font-family:"Gowun Batang",serif;font-size:24px;margin:0 0 8px;line-height:1.35}
+  .door p{position:relative;margin:0;font-size:15px;opacity:.92}
+  .door .go{margin-top:auto;padding-top:22px;font-weight:600;font-size:15px}
+  .door .soon{margin-top:auto;padding-top:22px;font-size:14px;opacity:.75}
+  div.door{opacity:.82}
+  footer{margin-top:auto;border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-size:13px}
+  @media (max-width:860px){
+    header{padding:40px 0 16px}
+    .doors{grid-template-columns:1fr}
+    .door{min-height:220px}
+  }
+  @media (prefers-reduced-motion:reduce){.door{transition:none}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <h1>최쌤의 세 갈래 길 매핑</h1>
+  <p class="lead">30년 동안 걸어온 수학교사의 길 위에서, 배우고 가꾸는 것들을 세 갈래로 나누어 정리하고 있습니다.</p>
+</header>
+
+<main class="wrap doors">
+  <a class="door career" href="/career-mapping/">
+    <p class="tag">진로</p>
+    <h2>최쌤의 진로매핑</h2>
+    <p>진로진학상담을 공부하며 배우고 탐구한 내용을 진로교육 지도로 그려 갑니다.</p>
+    <span class="go">들어가기 →</span>
+  </a>
+
+  <div class="door math" aria-disabled="true">
+    <p class="tag">수학</p>
+    <h2>자옥쌤의 수학교실</h2>
+    <p>수학체험, 수학실험실, 교실에서 바로 쓰는 웹앱으로 수학을 손으로 만납니다.</p>
+    <span class="soon">문을 여는 중</span>
+  </div>
+
+  <div class="door garden" aria-disabled="true">
+    <p class="tag">가드닝</p>
+    <h2>들꽃처럼 가드닝</h2>
+    <p>베란다에서 키우고 가꾸는 식물 이야기를 담습니다.</p>
+    <span class="soon">문을 여는 중</span>
+  </div>
+</main>
+
+<footer class="wrap">최쌤의 세 갈래 길 매핑 · 진로, 수학, 가드닝</footer>
+</body>
+</html>
