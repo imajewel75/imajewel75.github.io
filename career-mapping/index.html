@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주소를 옮겼습니다 · 자옥쌤의 진로매핑</title>
+<meta name="description" content="자옥쌤의 진로매핑이 새 주소 https://j-career.vercel.app/ 로 옮겼습니다.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://j-career.vercel.app/">
+<noscript><meta http-equiv="refresh" content="1; url=https://j-career.vercel.app/"></noscript>
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{display:flex;align-items:center;justify-content:center;padding:24px;background:#163A5F;color:#fff;
+       font-family:"IBM Plex Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.7;word-break:keep-all;text-align:center}
+  main{max-width:30em}
+  .site{margin:0 0 6px;color:#F2C14E;font-weight:600;letter-spacing:.02em}
+  h1{margin:0 0 14px;font-family:"Gowun Batang",serif;font-size:clamp(24px,6vw,34px);font-weight:700}
+  p{margin:0 0 10px;color:rgba(255,255,255,.85)}
+  a.go{display:inline-block;margin:14px 0 10px;padding:12px 22px;border-radius:999px;background:#F2C14E;color:#163A5F;font-weight:700;text-decoration:none;word-break:break-all}
+  a.go:hover,a.go:focus-visible{background:#fff;outline:none}
+  .small{font-size:14px;color:rgba(255,255,255,.7)}
+</style>
+</head>
+<body>
+<main>
+  <p class="site">자옥쌤의 진로매핑</p>
+  <h1>주소를 옮겼습니다</h1>
+  <p>잠시 뒤 새 주소로 이동합니다.</p>
+  <a class="go" id="go" href="https://j-career.vercel.app/">https://j-career.vercel.app</a>
+  <p class="small">이동하지 않으면 위의 새 주소를 눌러 주세요.<br>즐겨찾기도 새 주소로 바꿔 주시면 고맙겠습니다.</p>
+</main>
+<script>
+  (function(){
+    var target = "https://j-career.vercel.app/" + (location.hash || "");
+    var go = document.getElementById("go");
+    go.href = target;
+    setTimeout(function(){ location.replace(target); }, 1000);
+  })();
+</script>
+</body>
+</html>
